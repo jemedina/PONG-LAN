@@ -11,7 +11,7 @@ public class JuegoLogica {
     public Pelota pelota;
     final int JUGADOR_WIDTH = 20;
     final int JUGADOR_HEIGHT = 60;
-    public int vidas1=2,vidas2=2;
+    public int vidas1=6,vidas2=6;
     public  void puntos1() {
         vidas2--;
         System.out.println("Vidas J1["+vidas1+"] , J2["+vidas2+"]");
